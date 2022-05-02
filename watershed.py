@@ -1,7 +1,6 @@
 import numpy as np # Math manipulation
 import cv2 # Computer vision
 import matplotlib.pyplot as plt # View
-import skimage.io as io # Image manipulation
 from PIL import Image, ImageOps
 
 def watershed_with_markers(im):
