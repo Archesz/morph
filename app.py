@@ -78,7 +78,7 @@ elif page == 'Segmentação':
 
     st.title('Segmentação')
 
-    st.subtitle('Em breve.')
+    st.write('Em breve.')
     st.write("Até lá, verifique minha outra demo: https://share.streamlit.io/archesz/segmentation-image/main/app.py")
     
     # if img is not None:
