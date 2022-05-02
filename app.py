@@ -50,8 +50,8 @@ with st.sidebar:
 
 if page == 'Morfologia Matemática':    
 
-    st.title('Aplicações Operações de Morfologia Matemática')
-
+    st.title('Aplicando Operações de Morfologia Matemática')
+    
     if img is not None:
         st.image(img)
         im = Image.open(img)
