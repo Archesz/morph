@@ -78,14 +78,17 @@ elif page == 'Segmentação':
 
     st.title('Segmentação')
 
-    if img is not None:
-        im = Image.open(img)
-        gray = ImageOps.grayscale(im)
-        im_array = np.array(gray)
+    st.subtitle('Em breve.')
+    st.write("Até lá, verifique minha outra demo: https://share.streamlit.io/archesz/segmentation-image/main/app.py")
+    
+    # if img is not None:
+        #im = Image.open(img)
+        #gray = ImageOps.grayscale(im)
+        #im_array = np.array(gray)
 
-    if aplicar:
-        img = pw.watershed_with_markers(im_array)
-        img = Image.fromarray(img)
+    #if aplicar:
+        #img = pw.watershed_with_markers(im_array)
+        #img = Image.fromarray(img)
 
-        plt.imshow(img)
-        st.pyplot()
+        #plt.imshow(img)
+        #st.pyplot()
