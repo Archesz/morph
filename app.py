@@ -3,7 +3,6 @@ import numpy as np # Math manipulation
 import cv2 as cv # Computer vision
 import matplotlib.pyplot as plt # View
 # import skimage.io as io # Image manipulation
-import pandas as pd
 import streamlit as st
 from PIL import Image, ImageOps
 
