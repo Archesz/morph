@@ -27,7 +27,7 @@ with st.sidebar:
     
     if page == 'Morfologia Matemática':
 
-        img = st.file_uploader("Upload Image", type=["png", "jpg", "jpeg"])
+        img = st.file_uploader("Upload Image", type=["png", "jpg", "jpeg", "tiff"])
 
         # operations = st.multiselect('Escolha as operações para aplicar (Na ordem de preferência): ', OPERATIONS)
         operation = st.selectbox('Escolha a operação para aplicar: ', OPERATIONS)
@@ -44,7 +44,7 @@ with st.sidebar:
 
     elif page == 'Segmentação':
         
-        img = st.file_uploader("Upload Image", type=["png", "jpg", "jpeg"])
+        img = st.file_uploader("Upload Image", type=["png", "jpg", "jpeg", "tiff])
 
         aplicar = st.button('Aplicar')
 
