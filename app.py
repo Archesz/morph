@@ -44,7 +44,7 @@ with st.sidebar:
 
     elif page == 'Segmentação':
         
-        img = st.file_uploader("Upload Image", type=["png", "jpg", "jpeg", "tiff])
+        img = st.file_uploader("Upload Image", type=["png", "jpg", "jpeg", "tiff"])
 
         aplicar = st.button('Aplicar')
 
